@@ -1,0 +1,36 @@
+{
+  "briefing": {
+    "date": "2025-08-10",
+    "recovery": {
+      "hrv": 68,
+      "rhr": 50,
+      "sleep_score": 78,
+      "trend": "stable"
+    },
+    "assessment": "Good to train as planned; minor residual fatigue.",
+    "today_plan": {
+      "sport": "run",
+      "intent": "long",
+      "duration_min": 80,
+      "target": {
+        "pace": "easy"
+      }
+    },
+    "alternatives": [
+      {
+        "label": "Easier Z2 35min + mobility 15min",
+        "code": "ALT_EASY"
+      },
+      {
+        "label": "Bike Z2 60min if legs sore",
+        "code": "ALT_BIKE"
+      }
+    ],
+    "cta": [
+      "\ud83d\udcac Questions",
+      "\ud83d\udd01 Swap",
+      "\ud83e\uddd8\u200d\u2642\ufe0f Recovery"
+    ]
+  },
+  "whatsapp": "Morning, Guillaume! \ud83c\udf24\ufe0f\nRecovery: HRV 68, RHR 50, Sleep 78/100 \u2192 Good to train as planned; minor residual fatigue.\nToday: run 80min \u2022 long \u2022 target easy\nReply: \ud83d\udd01 Swap \u2022 \ud83d\udcac Ask \u2022 \ud83e\uddd8\u200d\u2642\ufe0f Recovery"
+}

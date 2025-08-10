@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "date",
+    "recovery",
+    "assessment",
+    "today_plan",
+    "alternatives",
+    "cta"
+  ],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "recovery": {
+      "type": "object",
+      "required": [
+        "hrv",
+        "rhr",
+        "sleep_score",
+        "trend"
+      ],
+      "properties": {
+        "hrv": {
+          "type": "integer"
+        },
+        "rhr": {
+          "type": "integer"
+        },
+        "sleep_score": {
+          "type": "integer"
+        },
+        "trend": {
+          "type": "string"
+        }
+      }
+    },
+    "assessment": {
+      "type": "string"
+    },
+    "today_plan": {
+      "type": "object",
+      "required": [
+        "sport",
+        "intent",
+        "duration_min",
+        "target"
+      ],
+      "properties": {
+        "sport": {
+          "type": "string"
+        },
+        "intent": {
+          "type": "string"
+        },
+        "duration_min": {
+          "type": "integer"
+        },
+        "target": {
+          "type": "object"
+        }
+      }
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "cta": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

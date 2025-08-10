@@ -1,0 +1,37 @@
+{
+  "user_id": "u_demo",
+  "first_name": "Guillaume",
+  "tz": "Europe/Luxembourg",
+  "goal": {
+    "sport": "run",
+    "target_event": "Valencia Marathon",
+    "target_date": "2025-12-07",
+    "target_time": "02:59:00"
+  },
+  "availability": {
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "minutes_per_day": 75
+  },
+  "experience_level": "advanced",
+  "constraints": {
+    "injuries": [
+      "achilles_tightness"
+    ],
+    "equipment": {
+      "watch": true,
+      "hr_strap": true
+    }
+  },
+  "prefs": {
+    "terrain": "road",
+    "indoor_ok": false,
+    "strength_yes_no": true
+  }
+}
