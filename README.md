@@ -18,3 +18,12 @@ This script is the first naive version of the MVP, it uses sample garmin data ca
 - Calls a mocked Bedrock function to produce a training plan and daily briefing JSON + a WhatsApp-ready text.
 - Validates the output against schemas/briefing.schema.json.
 
+## how to execute it?
+```zsh
+python simulate_daily_briefing.py \
+  --date 2025-08-10 \
+  --metrics samples/garmin/daily_metrics_2025-08-09.json \
+  --activities samples/garmin/activities_2025-08-09.json \
+  --profile samples/user_profile.json \
+  --out samples_outputs/briefing_2025-08-10.json
+```
